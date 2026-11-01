@@ -2,13 +2,13 @@
 # aai-platform-p1bd
 $schema: bean/1.0.0
 title: Pull beans from the platform repositories into one board
-status: in-progress
+status: completed
 type: task
 priority: normal
 tags:
     - beans
 created_at: 2026-10-20T14:00:00Z
-updated_at: 2026-10-20T14:00:00Z
+updated_at: 2026-11-01T10:05:00Z
 issue: https://github.com/litlfred/folio-assistant/issues/2605
 ---
 
@@ -19,4 +19,4 @@ issue: https://github.com/litlfred/folio-assistant/issues/2605
 - [x] The script reads both store layouts (`beans/defs/` and `beans/`) and the repo's own `.beans.yml`
 - [x] A bean kept in several stores appears once
 - [x] Repositories on the deny list are refused
-- [ ] The workflow runs on `main` and commits the board
+- [x] The workflow runs on `main` and commits the board (daily "Pull beans and check drift" commits since 2026-10-30, latest 06a6189 on 2026-11-01)

@@ -9,7 +9,7 @@ parent: aai-platform-7aw2
 tags:
     - programme
 created_at: 2026-10-20T17:00:00Z
-updated_at: 2026-10-20T17:00:00Z
+updated_at: 2026-11-01T10:05:00Z
 issue: https://github.com/litlfred/folio-assistant/issues/2605
 ---
 
@@ -19,3 +19,5 @@ Owner, 2026-10-20: "aai-programme = aai-platform, we will do renames." Chine-E's
 
 - [ ] The owner says when and what the Platform repository is called
 - [ ] The repository, README, `.beans.yml` prefix, beans branch name and the board links are renamed together
+
+Progress 2026-11-01: the repositories are already named `aai-programme` (litlfred and WHO). Still on the old name: the `.beans.yml` prefix `aai-platform`, the bean ids and the branch `cat/aai-platform/beans`.
