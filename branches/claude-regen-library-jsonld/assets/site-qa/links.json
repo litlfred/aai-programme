@@ -1,0 +1,298 @@
+{
+ "$schema": "site-link-report/v1",
+ "pages": 851,
+ "unresolved": [],
+ "selfAddress": [
+  {
+   "page": "board/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/board/"
+  },
+  {
+   "page": "docs/requirements/aai-acceptance.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/docs/requirements/aai-acceptance.html"
+  },
+  {
+   "page": "docs/requirements/aai-automation.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/docs/requirements/aai-automation.html"
+  },
+  {
+   "page": "docs/requirements/aai-decisions.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/docs/requirements/aai-decisions.html"
+  },
+  {
+   "page": "docs/requirements/aai-dependencies.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/docs/requirements/aai-dependencies.html"
+  },
+  {
+   "page": "docs/requirements/aai-design-principles.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/docs/requirements/aai-design-principles.html"
+  },
+  {
+   "page": "docs/requirements/aai-information.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/docs/requirements/aai-information.html"
+  },
+  {
+   "page": "docs/requirements/aai-linking.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/docs/requirements/aai-linking.html"
+  },
+  {
+   "page": "docs/requirements/aai-metrics.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/docs/requirements/aai-metrics.html"
+  },
+  {
+   "page": "docs/requirements/aai-pilot.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/docs/requirements/aai-pilot.html"
+  },
+  {
+   "page": "docs/requirements/aai-views.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/docs/requirements/aai-views.html"
+  },
+  {
+   "page": "docs/requirements/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/docs/requirements/"
+  },
+  {
+   "page": "docs/staging-project.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/docs/staging-project.html"
+  },
+  {
+   "page": "en/cat-harness/attestations/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/attestations/"
+  },
+  {
+   "page": "en/cat-harness/beans/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/beans/"
+  },
+  {
+   "page": "en/cat-harness/block-kinds/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/block-kinds/"
+  },
+  {
+   "page": "en/cat-harness/code-lists/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/code-lists/"
+  },
+  {
+   "page": "en/cat-harness/code/aai-programme/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/code/aai-programme/"
+  },
+  {
+   "page": "en/cat-harness/code/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/code/"
+  },
+  {
+   "page": "en/cat-harness/content-adapters/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/content-adapters/"
+  },
+  {
+   "page": "en/cat-harness/graph-typologies/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/graph-typologies/"
+  },
+  {
+   "page": "en/cat-harness/health/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/health/"
+  },
+  {
+   "page": "en/cat-harness/issue-marks/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/issue-marks/"
+  },
+  {
+   "page": "en/cat-harness/library/aai-programme/assured-ai-github-programme-requirements-v036/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/library/aai-programme/assured-ai-github-programme-requirements-v036/"
+  },
+  {
+   "page": "en/cat-harness/library/aai-programme/assured-ai-github-programme-requirements-v041/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/library/aai-programme/assured-ai-github-programme-requirements-v041/"
+  },
+  {
+   "page": "en/cat-harness/library/aai-programme/assured-ai-github-programme-requirements-v042/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/library/aai-programme/assured-ai-github-programme-requirements-v042/"
+  },
+  {
+   "page": "en/cat-harness/library/aai-programme/assured-ai-github-programme-requirements-v05/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/library/aai-programme/assured-ai-github-programme-requirements-v05/"
+  },
+  {
+   "page": "en/cat-harness/library/aai-programme/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/library/aai-programme/"
+  },
+  {
+   "page": "en/cat-harness/library/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/library/"
+  },
+  {
+   "page": "en/cat-harness/memory/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/memory/"
+  },
+  {
+   "page": "en/cat-harness/merge-reviews/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/merge-reviews/"
+  },
+  {
+   "page": "en/cat-harness/pipeline-plugins/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/pipeline-plugins/"
+  },
+  {
+   "page": "en/cat-harness/policies/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/policies/"
+  },
+  {
+   "page": "en/cat-harness/processes/aai-programme/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/processes/aai-programme/"
+  },
+  {
+   "page": "en/cat-harness/processes/bean-drift.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/processes/bean-drift.html"
+  },
+  {
+   "page": "en/cat-harness/processes/bean-triage.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/processes/bean-triage.html"
+  },
+  {
+   "page": "en/cat-harness/processes/dependency-escalation.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/processes/dependency-escalation.html"
+  },
+  {
+   "page": "en/cat-harness/processes/epic-proposal.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/processes/epic-proposal.html"
+  },
+  {
+   "page": "en/cat-harness/processes/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/processes/"
+  },
+  {
+   "page": "en/cat-harness/processes/integration-validation.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/processes/integration-validation.html"
+  },
+  {
+   "page": "en/cat-harness/processes/panel-links-qa.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/processes/panel-links-qa.html"
+  },
+  {
+   "page": "en/cat-harness/processes/programme-build.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/processes/programme-build.html"
+  },
+  {
+   "page": "en/cat-harness/processes/programme-pilot.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/processes/programme-pilot.html"
+  },
+  {
+   "page": "en/cat-harness/qa-checkers/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/qa-checkers/"
+  },
+  {
+   "page": "en/cat-harness/qa/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/qa/"
+  },
+  {
+   "page": "en/cat-harness/scenarios/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/scenarios/"
+  },
+  {
+   "page": "en/cat-harness/substrate-snapshots/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/substrate-snapshots/"
+  },
+  {
+   "page": "en/cat-harness/swimlane-glossary/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/swimlane-glossary/"
+  },
+  {
+   "page": "en/cat-harness/test-plans/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/test-plans/"
+  },
+  {
+   "page": "en/cat-harness/todos/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/todos/"
+  },
+  {
+   "page": "en/cat-harness/tool-releases/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/tool-releases/"
+  },
+  {
+   "page": "en/cat-harness/uploads-queue/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/uploads-queue/"
+  },
+  {
+   "page": "en/cat-harness/validators/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/validators/"
+  },
+  {
+   "page": "en/cat-harness/vocab-mappings/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/en/cat-harness/vocab-mappings/"
+  },
+  {
+   "page": "index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/"
+  },
+  {
+   "page": "programme/drift.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/programme/drift.html"
+  },
+  {
+   "page": "programme/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/programme/"
+  },
+  {
+   "page": "programme/v1.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/programme/v1.html"
+  },
+  {
+   "page": "programme/v10.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/programme/v10.html"
+  },
+  {
+   "page": "programme/v11.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/programme/v11.html"
+  },
+  {
+   "page": "programme/v12.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/programme/v12.html"
+  },
+  {
+   "page": "programme/v13.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/programme/v13.html"
+  },
+  {
+   "page": "programme/v2.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/programme/v2.html"
+  },
+  {
+   "page": "programme/v3.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/programme/v3.html"
+  },
+  {
+   "page": "programme/v4.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/programme/v4.html"
+  },
+  {
+   "page": "programme/v5.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/programme/v5.html"
+  },
+  {
+   "page": "programme/v6.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/programme/v6.html"
+  },
+  {
+   "page": "programme/v7.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/programme/v7.html"
+  },
+  {
+   "page": "programme/v8.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/programme/v8.html"
+  },
+  {
+   "page": "programme/v9.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/programme/v9.html"
+  },
+  {
+   "page": "programme/workstreams.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/programme/workstreams.html"
+  },
+  {
+   "page": "qa/validation/index.html",
+   "href": "https://litlfred.github.io/aai-programme/branches/claude-regen-library-jsonld/qa/validation/"
+  }
+ ],
+ "content": [],
+ "diagrams": 11,
+ "inDiagrams": []
+}

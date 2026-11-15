@@ -1,0 +1,25 @@
+{
+  "$schema": "folio-search-manifest/v1",
+  "source": {
+    "path": "assets/js/search-data.json",
+    "sha256": "8d4dbc139b83e055cb79910028d63114fb4712e8bf2edbd50d4cb35107ef4ade",
+    "entries": 207,
+    "bytes": 174117
+  },
+  "scopes": [
+    {
+      "id": "_platform",
+      "kind": "platform",
+      "path": "assets/js/search/_platform.json",
+      "entries": 81,
+      "bytes": 87522
+    },
+    {
+      "id": "cat-harness",
+      "kind": "instance",
+      "path": "assets/js/search/cat-harness.json",
+      "entries": 126,
+      "bytes": 80518
+    }
+  ]
+}
