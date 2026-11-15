@@ -1,0 +1,135 @@
+{
+ "$schema": "site-parity-report/v1",
+ "outcome": "carries-everything",
+ "shortfall": [],
+ "droppedByRuling": [
+  {
+   "what": "ar/",
+   "ruling": "owner, 2026-11-10: the base IG's pages should not be in an IG's site, only cross referenced — another layer's pages are linked on its own site, not copied into a scoped (IG) site"
+  },
+  {
+   "what": "cat-harness-tools/",
+   "ruling": "owner, 2026-11-10: the base IG's pages should not be in an IG's site, only cross referenced — another layer's pages are linked on its own site, not copied into a scoped (IG) site"
+  },
+  {
+   "what": "code/",
+   "ruling": "owner, 2026-11-10: the base IG's pages should not be in an IG's site, only cross referenced — another layer's pages are linked on its own site, not copied into a scoped (IG) site"
+  },
+  {
+   "what": "es/",
+   "ruling": "owner, 2026-11-10: the base IG's pages should not be in an IG's site, only cross referenced — another layer's pages are linked on its own site, not copied into a scoped (IG) site"
+  },
+  {
+   "what": "fr/",
+   "ruling": "owner, 2026-11-10: the base IG's pages should not be in an IG's site, only cross referenced — another layer's pages are linked on its own site, not copied into a scoped (IG) site"
+  },
+  {
+   "what": "ru/",
+   "ruling": "owner, 2026-11-10: the base IG's pages should not be in an IG's site, only cross referenced — another layer's pages are linked on its own site, not copied into a scoped (IG) site"
+  },
+  {
+   "what": "zh/",
+   "ruling": "owner, 2026-11-10: the base IG's pages should not be in an IG's site, only cross referenced — another layer's pages are linked on its own site, not copied into a scoped (IG) site"
+  }
+ ],
+ "current": {
+  "pages": 664,
+  "counts": {
+   "siteNav": 0,
+   "search": 370,
+   "navbarRow": 370,
+   "rail": 370,
+   "translationMeta": 364
+  },
+  "dirs": [
+   "ar",
+   "assets",
+   "board",
+   "cat-harness",
+   "cat-harness-tools",
+   "code",
+   "docs",
+   "en",
+   "es",
+   "folio-assistant-core",
+   "fr",
+   "id-lookup",
+   "library",
+   "processes",
+   "programme",
+   "pulled",
+   "qa",
+   "ru",
+   "zh"
+  ],
+  "index": [
+   "search",
+   "navbarRow",
+   "rail",
+   "translationMeta"
+  ]
+ },
+ "candidate": {
+  "pages": 852,
+  "counts": {
+   "siteNav": 0,
+   "search": 78,
+   "navbarRow": 78,
+   "rail": 800,
+   "translationMeta": 72
+  },
+  "dirs": [
+   "assets",
+   "board",
+   "cat-harness",
+   "docs",
+   "en",
+   "folio-assistant-core",
+   "id-lookup",
+   "library",
+   "processes",
+   "programme",
+   "pulled",
+   "qa"
+  ],
+  "index": [
+   "search",
+   "navbarRow",
+   "rail",
+   "translationMeta"
+  ]
+ },
+ "baseline": {
+  "features": {
+   "pages": 852,
+   "counts": {
+    "siteNav": 0,
+    "search": 78,
+    "navbarRow": 78,
+    "rail": 800,
+    "translationMeta": 72
+   },
+   "dirs": [
+    "assets",
+    "board",
+    "cat-harness",
+    "docs",
+    "en",
+    "folio-assistant-core",
+    "id-lookup",
+    "library",
+    "processes",
+    "programme",
+    "pulled",
+    "qa"
+   ],
+   "index": [
+    "search",
+    "navbarRow",
+    "rail",
+    "translationMeta"
+   ]
+  },
+  "from": "d57a5368450d"
+ }
+}
