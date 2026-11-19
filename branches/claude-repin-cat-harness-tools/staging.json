@@ -1,0 +1,27 @@
+{
+  "branch": "claude/repin-cat-harness-tools",
+  "sha": "8c49896",
+  "built": "2026-11-19T08:54:16Z (built locally by an agent)",
+  "pr": "71",
+  "prUrl": "https://github.com/litlfred/aai-programme/pull/71",
+  "branchUrl": "https://github.com/litlfred/aai-programme/tree/claude/repin-cat-harness-tools",
+  "issue": null,
+  "issueUrl": null,
+  "runUrl": "https://github.com/litlfred/aai-programme/commit/8c49896f1b61e19a76445aeae3b2bdad13f13999",
+  "checksUrl": null,
+  "mainSite": "https://litlfred.github.io/aai-programme",
+  "beforeRef": "main",
+  "mainPagesKnown": true,
+  "newPages": [
+    "cat-harness/graph-typologies/aai-programme/index.html",
+    "en/cat-harness/graph-typologies/aai-programme/index.html",
+    "en/cat-harness/harness/aai-programme/index.html",
+    "en/cat-harness/harness/bootstrap-tools/index.html",
+    "en/cat-harness/harness/bootstrap/index.html",
+    "en/cat-harness/harness/cat-harness-tools/index.html",
+    "en/cat-harness/harness/cat-harness/index.html",
+    "en/cat-harness/harness/folio-assistant-core/index.html",
+    "en/cat-harness/harness/index.html",
+    "slices/search.html"
+  ]
+}
