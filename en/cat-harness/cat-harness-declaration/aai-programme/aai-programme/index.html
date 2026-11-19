@@ -169,6 +169,27 @@
       &quot;docs&quot;
     ],
     &quot;description&quot;: &quot;Pages of this instance&#39;s site written in the repository, and the requirement nodes under docs/requirements/ (declared from within, docs/docs.json).&quot;
+  },
+  {
+    &quot;id&quot;: &quot;board&quot;,
+    &quot;path&quot;: &quot;pulled/&quot;,
+    &quot;graphTypologies&quot;: [
+      &quot;beans-board&quot;
+    ],
+    &quot;source&quot;: {
+      &quot;kind&quot;: &quot;branch&quot;,
+      &quot;branch&quot;: &quot;cat/aai-programme/board&quot;,
+      &quot;keyedBy&quot;: &quot;tip&quot;
+    },
+    &quot;description&quot;: &quot;The combined beans board and the bean-drift report the Pull beans bot writes each day. Kept on the state branch cat/aai-programme/board and mounted here by `bun run cat state:mount --id board`, never committed to main: each copy of this repository used to commit it to its own main, and the copies drifted apart daily.&quot;
+  },
+  {
+    &quot;id&quot;: &quot;typologies&quot;,
+    &quot;path&quot;: &quot;typologies/&quot;,
+    &quot;graphTypologies&quot;: [
+      &quot;typologies&quot;
+    ],
+    &quot;description&quot;: &quot;The graph typologies this instance owns, one folio-graph-typology/v1 node per file: `beans-board`, the kind of the board on cat/aai-programme/board.&quot;
   }
 ]</pre></dd>
 <dt>description</dt><dd>Coordination for the WHO Assured AI programme: the programme requirements, the processes that build and run it, and the combined work plan of the repositories it draws on. Its home is WorldHealthOrganization/aai-programme (moved 2026-10-26); litlfred/aai-programme is the staging copy, where the issues stay because GitHub cannot transfer them between owners.</dd>

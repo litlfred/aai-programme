@@ -13,10 +13,6 @@
 
   
 
-  
-    <script src="../assets/js/vendor/lunr.min.js"></script>
-  
-
   <script src="../assets/js/just-the-docs.js"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -93,8 +89,8 @@
 <meta name="fa-glass-strip" content="[&quot;glass-todos&quot;,&quot;glass-settings&quot;]"><meta name="fa-baseurl" content=".."><meta name="fa-staging" content=""><meta name="fa-search-index" content="">
 
 <meta name="fa-beans-src" content="../assets/beans/index.json"><meta name="fa-processes-src" content="../subgraph/index.jsonld"><meta name="fa-build-src" content="../build.json"><link rel="stylesheet" href="../assets/css/navbar-row.css?v=263225e79ed9">
-<link rel="stylesheet" href="../assets/css/docs-ui.css?v=cc59a4b4ce11"><link rel="stylesheet" href="../assets/css/narrow-viewport.css?v=173ef819dbf2"><link rel="stylesheet" href="../assets/css/themes.css?v=5c199f8420d3"><link rel="stylesheet" href="../assets/css/uml.css?v=e677f91cbf66"><link rel="stylesheet" href="../assets/css/avatars.css?v=82472070d440"><script type="application/json" id="fa-declared-kinds">["beans","docs","library","processes","uploads"]</script><script src="../assets/js/harness-data.js" defer></script><script src="../assets/js/kg-render.js" defer></script><script src="../assets/js/navbar-row.js?v=fb3cd5c0d28c" defer></script>
-<script src="../assets/js/docs-ui.js?v=480a3c3c0d42" defer></script><script src="../assets/js/edit-links.js?v=7b072444cbb5" defer></script><script src="../assets/js/translation-review.js?v=1902d883e072" defer></script><script src="../assets/js/code-highlight.js?v=0f94772226c3" defer></script><style>
+<link rel="stylesheet" href="../assets/css/docs-ui.css?v=4c7265cca407"><link rel="stylesheet" href="../assets/css/narrow-viewport.css?v=173ef819dbf2"><link rel="stylesheet" href="../assets/css/themes.css?v=5c199f8420d3"><link rel="stylesheet" href="../assets/css/uml.css?v=e677f91cbf66"><link rel="stylesheet" href="../assets/css/avatars.css?v=82472070d440"><script type="application/json" id="fa-declared-kinds">["beans","beans-board","docs","library","processes","typologies","uploads"]</script><script src="../assets/js/harness-data.js" defer></script><script src="../assets/js/kg-render.js" defer></script><script src="../assets/js/navbar-row.js?v=fb3cd5c0d28c" defer></script>
+<script src="../assets/js/docs-ui.js?v=cae1ad7ba8e7" defer></script><script src="../assets/js/edit-links.js?v=7b072444cbb5" defer></script><script src="../assets/js/translation-review.js?v=3ab638979d22" defer></script><script src="../assets/js/code-highlight.js?v=0f94772226c3" defer></script><style>
   .folio-landing { position: relative; margin: 0 0 2rem; }
 
   /* WHAT IS LEFT HERE, AND WHY IT IS SO LITTLE.
@@ -161,7 +157,7 @@
   }
 </style>
 
-<link rel="stylesheet" href="../assets/css/navbar.css"><script src="../assets/navbar/rail-1v9jff8poz9.js" defer></script><script src="../assets/js/navbar.js" defer></script><link rel="stylesheet" href="../assets/page-layout.css" data-fa-page-layout><script src="../assets/page-layout.js" defer data-fa-page-layout></script><meta name="fa-pinned-data" content=".."></head>
+<link rel="stylesheet" href="../assets/css/navbar.css"><script src="../assets/navbar/rail-1v9jff8poz9.js" defer></script><script src="../assets/js/navbar.js" defer></script><link rel="stylesheet" href="../assets/page-layout.css" data-fa-page-layout><script src="../assets/page-layout.js" defer data-fa-page-layout></script><script src="../assets/draft-banner.js" defer data-fa-page-layout></script><noscript data-fa-draft-noscript><link rel="stylesheet" href="../assets/draft-banner-noscript.css"></noscript><meta name="fa-pinned-data" content=".."></head>
 
 <body><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root="..">{"data":"rail-1v9jff8poz9","here":"/programme/drift.html","documentIndex":{"label":"On this page","icon":"§","items":[{"href":"#bean-completed-issue-still-open-1","label":"Bean completed, issue still open (1)"},{"href":"#bean-changed-since-the-issue-was-last-touched-13","label":"Bean changed since the issue was last touched (13)"},{"href":"#open-beans-nobody-has-triaged-37","label":"Open beans nobody has triaged (37)"}],"collapsible":true}}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../">Assured AI programme</a></nav>
   <a class="skip-to-main" href="#main-content">Skip to main content</a>
@@ -269,7 +265,7 @@
 </h1>
     
 
-<p>Checked 2026-11-15: 33 programme issue(s) carrying 35 bean link(s), against 2279 beans from 12 stores. <strong>Bean completed, issue still open: 1; Bean changed since the issue was last touched: 13; Open beans nobody has triaged: 37.</strong></p>
+<p>Checked 2026-11-19: 33 programme issue(s) carrying 35 bean link(s), against 2298 beans from 12 stores. <strong>Bean completed, issue still open: 1; Bean changed since the issue was last touched: 13; Open beans nobody has triaged: 37.</strong></p>
 
 <p>Each finding is for a person to act on: change the issue, or record a triage decision in <code class="language-plaintext highlighter-rouge">docs/beans-triage.json</code>. Nothing here is changed automatically. Run it again by commenting <code class="language-plaintext highlighter-rouge">/check-drift</code> on any issue.</p>
 <h2 id="bean-completed-issue-still-open-1">
@@ -358,7 +354,7 @@
     <tr>
       <td><a href="https://github.com/litlfred/aai-programme/issues/33">#33</a></td>
       <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-oz9e--benchmark-outcome-evaluation-of-harness-runs-acros.md">folio-assistant-oz9e</a></td>
-      <td>the bean changed (2026-10-30) after the issue was last touched (2026-10-30)</td>
+      <td>the bean changed (2026-11-15) after the issue was last touched (2026-10-30)</td>
     </tr>
     <tr>
       <td><a href="https://github.com/litlfred/aai-programme/issues/32">#32</a></td>
@@ -400,24 +396,12 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-14un--smart-base-move-the-scripts-validators-and-qa-chec.md">folio-assistant-14un</a></td>
-      <td>litlfred/folio-assistant: smart-base: move the scripts, validators and qa-checkers behind L* tool nodes into their subgraph</td>
-    </tr>
-    <tr>
       <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-17iw--migration-public-health-and-health-system-process.md">folio-assistant-17iw</a></td>
       <td>litlfred/folio-assistant: MIGRATION: public-health and health-system process catalogues move from smart-base to WHO/who-iris once it is live</td>
     </tr>
     <tr>
       <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-1b7t--decision-cards-open-and-answered.md">folio-assistant-1b7t</a></td>
       <td>litlfred/folio-assistant: Decision cards: open and answered</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-34c1--open-owner-questions-at-handover-q-gld-4-q-l1t-1-q.md">folio-assistant-34c1</a></td>
-      <td>litlfred/folio-assistant: Open owner questions at handover: Q-GLD-4, Q-L1T-1, Q-TODO-1, Q-DTH-REC-1</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-3bk1--ig-publish-on-push-rollout-re-pins-and-smart-trust-injection-gate.md">folio-assistant-3bk1</a></td>
-      <td>litlfred/folio-assistant: IG publish-on-push rollout: re-pins after the cascade, and the smart-trust injection gate</td>
     </tr>
     <tr>
       <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-65aj--paste-stub-gs-into-each-review-log.md">folio-assistant-65aj</a></td>
@@ -436,20 +420,16 @@
       <td>litlfred/folio-assistant: Owner to-do: per IG repo, Allow auto-merge + REPIN_TOKEN secret</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-9ml4--cache-first-ci-one-cached-step-primitive-derived-k.md">folio-assistant-9ml4</a></td>
-      <td>litlfred/folio-assistant: Cache-first CI: one cached-step primitive, derived keys, trust classes, budget, hit-rate report</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-bmat--document-back-matter-glossary-acronyms.md">folio-assistant-bmat</a></td>
-      <td>litlfred/folio-assistant: Document back matter: Glossary (Terms, then Acronyms) at the end of every document (handover bean)</td>
-    </tr>
-    <tr>
       <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-bsd1--bean-store-behind-any-tool-and-agent-dispatch.md">folio-assistant-bsd1</a></td>
       <td>litlfred/folio-assistant: BEAN STORE BEHIND ANY TOOL + STATE MACHINE STARTS ANY MODEL’S AGENT: proposal (WHO Assured AI / Gemini benchmarking context)</td>
     </tr>
     <tr>
       <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-cysv--one-dth-scaffold-and-seed-tool-in-the-platform-dth.md">folio-assistant-cysv</a></td>
       <td>litlfred/folio-assistant: One DTH scaffold and seed tool in the platform (dth init), replacing per-repo copies</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-dkin--who-iris-l1-ingest-the-remaining-daks-tb-hiv-chud-pnc.md">folio-assistant-dkin</a></td>
+      <td>litlfred/folio-assistant: who-iris: L1-ingest the remaining DAKs (TB, HIV, CHUD, PNC, SRV, SMBP, STI) with their per-task annotations</td>
     </tr>
     <tr>
       <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-drnh--merge-window-drain-handover-2026-11-02.md">folio-assistant-drnh</a></td>
@@ -468,12 +448,24 @@
       <td>litlfred/folio-assistant: PUBLISH: Cloudflare R2 + CDN in front of the WHO L1 corpus (future; owner 2026-10-24)</td>
     </tr>
     <tr>
+      <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-g4rf--g4-red-fix-single-code-prs-2026-11-15.md">folio-assistant-g4rf</a></td>
+      <td>litlfred/folio-assistant: G4 red-fix: single code PRs with real new failures (2026-11-15)</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-hrfr--dpi-h-public-comment-log-watcher-state.md">folio-assistant-hrfr</a></td>
+      <td>litlfred/folio-assistant: DPI-H public-comment log watcher: state at the 2026-11-15 owner check-in</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-k3vv--ci-speed-ii-2026-11-05-restarts-on-main-moves-red.md">folio-assistant-k3vv</a></td>
       <td>litlfred/folio-assistant: CI speed II (2026-11-05): restarts on main moves, red-main cycle, setup duplication</td>
     </tr>
     <tr>
       <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-lgwt--review-log-watcher-handover.md">folio-assistant-lgwt</a></td>
       <td>litlfred/folio-assistant: Review-log watcher: standing rules, how to watch, current state (handover bean)</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-mm15--merge-manager-handover-2026-11-15.md">folio-assistant-mm15</a></td>
+      <td>litlfred/folio-assistant: Merge manager handover 2026-11-15 06:35Z</td>
     </tr>
     <tr>
       <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-n6ny--project-memory-owner-rules-facts-to-dos-cards-and.md">folio-assistant-n6ny</a></td>
@@ -496,6 +488,10 @@
       <td>litlfred/folio-assistant: Biblio nav: standing 6-hourly re-pin per IG (Q-BIBNAV-2 = B)</td>
     </tr>
     <tr>
+      <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-pb15--harness-pr-backlog-plan-2026-11-15.md">folio-assistant-pb15</a></td>
+      <td>litlfred/folio-assistant: Harness PR backlog plan 2026-11-15</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-pga6--separation-phase-iii-and-architecture-doc.md">folio-assistant-pga6</a></td>
       <td>litlfred/folio-assistant: Separation Phase III: L4/L5 Content, Tool and Test repos on the harness, plus current and future architecture write-up</td>
     </tr>
@@ -504,16 +500,16 @@
       <td>litlfred/folio-assistant: Owner standing rules (moved from project memory 2026-11-12)</td>
     </tr>
     <tr>
+      <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-qc15--qou-coordinator-handover-2026-11-15.md">folio-assistant-qc15</a></td>
+      <td>litlfred/folio-assistant: qou coordinator handover 2026-11-15 (tracker qou#7735)</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-r29x--r29-todos-and-sticky-notes-reference-across-kg-l.md">folio-assistant-r29x</a></td>
       <td>litlfred/folio-assistant: R29 (PAUSED by owner): todos and sticky notes reference things across KG libraries, as one merged kind</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-rk1e--archimate-links-back-to-smart-ra-merge-the-pr-chai.md">folio-assistant-rk1e</a></td>
-      <td>litlfred/folio-assistant: ArchiMate links back to smart-ra: merge the PR chain (owner C, OK to merge)</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-um0y--merge-manager-re-pin-cascade-core-761-smart-base-w.md">folio-assistant-um0y</a></td>
-      <td>litlfred/folio-assistant: Merge manager: re-pin cascade core#761 → smart-base → who-iris/smart-ra → dth-hrh</td>
+      <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-untm--unterm-official-un-terminology-as-translation-candid.md">folio-assistant-untm</a></td>
+      <td>litlfred/folio-assistant: UNTERM: official UN terminology as translation candidates and glossary QA terms</td>
     </tr>
     <tr>
       <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-v8bg--handover-2026-11-12-09-32z-open-workstreams.md">folio-assistant-v8bg</a></td>
@@ -524,6 +520,10 @@
       <td>litlfred/folio-assistant: Facts and references (moved from project memory 2026-11-12)</td>
     </tr>
     <tr>
+      <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-wt3x--who-move-t3-same-owner-pins-derived-owner-publishin.md">folio-assistant-wt3x</a></td>
+      <td>litlfred/folio-assistant: WHO move T3: same-owner pins, derived owner, publishing profile (code PRs)</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/litlfred/folio-assistant/blob/cat/cat-harness/beans/beans/defs/folio-assistant-xaa8--ci-speed-ii-g-owner-decision-move-the-repo-under-a.md">folio-assistant-xaa8</a></td>
       <td>litlfred/folio-assistant: CI speed II (g): owner decision: move the repo under a free GitHub organization for the real merge queue</td>
     </tr>
@@ -532,16 +532,12 @@
       <td>litlfred/cat-harness: folio-assistant-0lj4–2026-10-04–claude-gracious-mendel-du6nn8</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/litlfred/cat-harness-tools/blob/main/beans/defs/cat-tools-sm8r--a-local-gate-run-reddens-every-later-statemount.md">cat-tools-sm8r</a></td>
-      <td>litlfred/cat-harness-tools: A local gate run reddens every later state:mount: its own steps write into the mounted layers</td>
+      <td><a href="https://github.com/litlfred/cat-harness-tools/blob/main/beans/defs/cat-tools-fc0r--fhir-core-definitions-are-not-built-at-publish.md">cat-tools-fc0r</a></td>
+      <td>litlfred/cat-harness-tools: FHIR core definitions are materialised by hand; the publish step does not build them</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/litlfred/cat-harness-tools/blob/main/beans/defs/cat-tools-st4q--skill-i-o-contracts-resolved-by-reference-not-pinn.md">cat-tools-st4q</a></td>
-      <td>litlfred/cat-harness-tools: Skill I/O contracts resolved by reference, not pinned to <root>/schemas/skills/ — so a subgraph can keep its own</root></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/litlfred/cat-harness-tools/blob/main/beans/defs/cat-tools-t6fz--schema-viewer-fhir-profiles-drawn-over-their-base.md">cat-tools-t6fz</a></td>
-      <td>litlfred/cat-harness-tools: SCHEMA VIEWER: FHIR profiles drawn over their base, FHIR core types from fhir-harness</td>
+      <td><a href="https://github.com/litlfred/cat-harness-tools/blob/main/beans/defs/cat-tools-pfng--fill-smart-and-dth-translations-with-open-mt-roun.md">cat-tools-pfng</a></td>
+      <td>litlfred/cat-harness-tools: Fill the smart-* and dth-* translations with open MT candidates, blind round-trip and glossary review</td>
     </tr>
     <tr>
       <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/beans/defs/folio-assistant-pvq4--review-the-agent-drafted-block-summaries-confirm.md">folio-assistant-pvq4</a></td>
